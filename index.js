@@ -10,7 +10,7 @@ function addDots(nStr) {
 	return x1 + x2;
 }
 
-export default (price) => {
+export default function rupiah(price) {
 	if (!price) {
 		price = 0
 	};
